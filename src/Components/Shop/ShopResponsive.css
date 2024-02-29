@@ -1,0 +1,92 @@
+@media screen and (max-width: 1024px) {
+  .pagination {
+    margin: auto;
+  }
+  .api .filter .accordion-body .dolar {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .shop2 .shopText h1 {
+    font-size: 35px;
+  }
+  .shop2 .shopText p {
+    font-size: 14px;
+  }
+  .summer .summerSave {
+    padding: 30px 0;
+  }
+  .summer .summerSave h2 {
+    font-size: 23px;
+  }
+  .summer .summerSave p {
+    font-size: 13px;
+    margin: 25px 0;
+  }
+  .summer .summerSave .summertext .shopNow {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+  .pagination {
+    margin: auto;
+  }
+  .api .filter .accordion-body .dolar {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .shop2 .shopText h1 {
+    font-size: 35px;
+  }
+  .shop2 .shopText p {
+    font-size: 14px;
+  }
+  .summer .summerSave {
+    padding: 30px 0;
+  }
+  .summer .summerSave h2 {
+    font-size: 23px;
+  }
+  .summer .summerSave p {
+    font-size: 13px;
+    margin: 25px 0;
+  }
+  .summer .summerSave .summertext .shopNow {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+  .pagination {
+    margin: 18px !important;
+  }
+  .api .filter .accordion-body .dolar {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .shop2 .shopText h1 {
+    font-size: 35px;
+  }
+  .shop2 .shopText p {
+    font-size: 14px;
+  }
+  .summer .summerSave {
+    padding: 30px 0;
+  }
+  .summer .summerSave h2 {
+    font-size: 23px;
+  }
+  .summer .summerSave p {
+    font-size: 13px;
+    margin: 25px 0;
+  }
+  .summer .summerSave .summertext .shopNow {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+  .api .filter {
+    display: none;
+  }
+  .pagination {
+    margin: 18px !important;
+  }
+}

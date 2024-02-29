@@ -1,0 +1,151 @@
+@media screen and (max-width: 1024px) {
+  .logo {
+    max-width: 140px;
+    margin-top: 5px;
+    margin-right: 0px;
+    position: absolute;
+    top: 28%;
+    left: 43%;
+  }
+  .nav-link {
+    font-size: 14px;
+    margin-inline-end: 3px;
+    margin-top: 3px;
+  }
+  .linkFixed {
+    color: var(--secand-color);
+  }
+  .div {
+    display: none;
+  }
+  .div2 {
+    display: block;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+  }
+  .links {
+    font-size: 17px;
+    margin-inline-end: 10px;
+  }
+  .top {
+    position: fixed;
+    bottom: 26px;
+    right: 26px;
+  }
+  .showBtn {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 992px) {
+  .logo {
+    max-width: 140px;
+    margin-top: 5px;
+    margin-right: 0px;
+    position: absolute;
+    top: 28%;
+    left: 43%;
+  }
+  .nav-link {
+    font-size: 14px;
+    margin-inline-end: 3px;
+    margin-top: 3px;
+  }
+  .linkFixed {
+    color: var(--secand-color);
+  }
+  .div {
+    display: none;
+  }
+  .div2 {
+    display: block;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+  }
+  .links {
+    font-size: 17px;
+    margin-inline-end: 10px;
+  }
+  .top {
+    position: fixed;
+    bottom: 26px;
+    right: 26px;
+  }
+  .showBtn {
+    opacity: 1;
+    visibility: visible;
+  }
+  .navbar-toggler {
+    background-color: white;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    max-width: 140px;
+    margin-top: 5px;
+    margin-right: 0px;
+    position: absolute;
+    top: 28%;
+    left: 42%;
+  }
+  .div {
+    display: none;
+  }
+  .div2 {
+    display: block;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+  }
+  .links {
+    font-size: 17px;
+    margin-inline-end: 10px;
+  }
+  .top {
+    position: fixed;
+    bottom: 26px;
+    right: 26px;
+  }
+  .showBtn {
+    opacity: 1;
+    visibility: visible;
+  }
+  .navbar-toggler {
+    background-color: white;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    max-width: 140px;
+    margin-top: 5px;
+    margin-right: 0px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+  }
+  .div {
+    position: static;
+    display: block;
+  }
+  .div2 {
+    display: none;
+  }
+  .links {
+    font-size: 14px;
+    margin-inline-end: 10px;
+  }
+  .top {
+    position: fixed;
+    bottom: 26px;
+    right: 26px;
+  }
+  .showBtn {
+    opacity: 1;
+    visibility: visible;
+  }
+  .navbar-toggler {
+    background-color: white;
+  }
+}

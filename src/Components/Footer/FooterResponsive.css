@@ -1,0 +1,27 @@
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  footer .about {
+    margin-bottom: 40px;
+    margin-inline-start: 30px;
+  }
+  footer {
+    background-color: var(--footer-color);
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-family: Futura_Book;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer .about {
+    margin-bottom: 40px;
+  }
+  footer {
+    background-color: var(--footer-color);
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-family: Futura_Book;
+  }
+}

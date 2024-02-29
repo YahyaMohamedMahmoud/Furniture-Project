@@ -1,0 +1,55 @@
+.contact {
+  background-image: url(../../img/how.webp);
+  background-position: 100% 5%;
+}
+.call .callText .callOne span {
+  font-size: 30px;
+  margin: 0 30px;
+}
+.call .callText .callOne ul li h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+.call .callText .callOne ul li {
+  font-family: Futura_Book;
+  color: #868686;
+  font-size: 13px;
+}
+.got {
+  padding: 80px 0;
+  border-top: 1px solid #86868644;
+}
+.got .gotText h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.got .gotText p {
+  color: #868686;
+  font-family: Futura_Book;
+}
+.got .gotFrom .name {
+  width: 30%;
+  padding: 10px 15px;
+  border: 1px solid #86868644;
+  margin-inline-end: 10px;
+}
+.got .gotFrom .tel {
+  width: 61%;
+  margin-top: 20px;
+  padding: 10px 15px;
+}
+.got .gotFrom input::placeholder {
+  color: #868686;
+}
+.got .gotFrom .send {
+  padding: 10px 40px;
+  margin-top: 20px;
+  background-color: var(--secand-color);
+  color: var(--primary-color);
+  border: 1px solid transparent;
+  transition: all 0.5s;
+}
+.got .gotFrom .send:hover {
+  background-color: var(--scroll-color);
+}

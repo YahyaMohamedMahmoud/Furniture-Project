@@ -1,0 +1,45 @@
+.login {
+  background-image: url(../../img/log.jpg);
+  background-position: 100% 27%;
+}
+.loginText h1 {
+  font-size: 50px;
+}
+.log .logForm .form-control {
+  border: 1px solid #86868666;
+  border-radius: 0;
+  margin-top: 10px;
+}
+.log .logForm .form-control:focus {
+  box-shadow: none;
+  border-color: #86868666;
+  outline: none;
+}
+.form-floating {
+  margin: auto;
+  width: 50%;
+}
+.log .logForm label {
+  color: #868686;
+  font-size: 14px;
+}
+.log .logForm p {
+  color: #868686;
+  font-family: Futura_Book;
+  margin: 20px 0;
+}
+.log .logForm .logbtn {
+  margin-top: 20px;
+  display: inline-block;
+  width: 50%;
+  background-color: var(--secand-color);
+  color: var(--primary-color);
+  padding: 12px;
+  text-transform: capitalize;
+  font-family: Futura_Heavy;
+  border: none;
+  transition: all 0.5s;
+}
+.log .logForm .logbtn:hover {
+  background-color: var(--scroll-color);
+}

@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+  .inspration .we h5 {
+    font-size: 30px;
+  }
+  .inspration .we {
+    padding: 5px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .aboutus {
+    background-image: url(../../img/about.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+  }
+  .abouthead {
+    width: 100%;
+  }
+  .aboutus h1 {
+    font-size: 29px !important;
+  }
+  .aboutus .dialog {
+    font-size: 13px !important;
+  }
+  .brandabout {
+    padding: 10px;
+  }
+  .brand .brandText h2 {
+    font-size: 16px;
+  }
+  .brand .brandText .hay {
+    font-size: 12px;
+  }
+  .inspration .we {
+    text-align: center;
+  }
+  .inspration .we h5 {
+    font-size: 30px;
+  }
+  .inspration .we .the {
+    line-height: 1.2;
+  }
+  .inspration .descImg {
+    margin-left: 0px;
+  }
+  .inspration .descImg1 {
+    margin-right: 0px;
+  }
+  .servies .freeGet {
+    margin-bottom: 20px;
+  }
+  .awesome .awesomeText {
+    text-align: center;
+  }
+  .awesome .awesomeText h5 {
+    font-size: 25px;
+  }
+  .team .teamText h5 {
+    font-size: 20px;
+  }
+  .team .personText h6 {
+    font-size: 25px;
+  }
+  .team .personText p {
+    color: #868686;
+    font-size: 14px;
+    font-family: Futura_Book;
+  }
+  .card img {
+    max-width: 300px;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Futura_Bold;
+  src: url(./../Fonts/Futura\ Bold\ font.ttf);
+}
+@font-face {
+  font-family: Futura_Book;
+  src: url(./../Fonts/Futura\ Book\ font.ttf);
+}
+@font-face {
+  font-family: Futura_Light;
+  src: url(./../Fonts/Futura\ Light\ font.ttf);
+}
+@font-face {
+  font-family: futura_medium;
+  src: url(./../Fonts/futura\ medium\ bt.ttf);
+}
+@font-face {
+  font-family: Futura_Extra_Black;
+  src: url(./../Fonts/Futura\ Extra\ Black\ font.ttf);
+}
+@font-face {
+  font-family: Futura_Heavy;
+  src: url(./../Fonts/unicode.futurab.ttf);
+}

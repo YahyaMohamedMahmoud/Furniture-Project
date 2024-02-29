@@ -1,0 +1,259 @@
+@media screen and (max-width: 1024px) {
+  .landing .carousel-item img {
+    height: 600px;
+  }
+  .carousel-text h1 {
+    font-size: 65px;
+  }
+  .brand .brandText h2 {
+    font-size: 30px;
+  }
+  .collectText h3 {
+    font-size: 32px;
+  }
+  .collection .collectImages .card1 .cardtext span {
+    font-size: 20px;
+  }
+  .desginer .from {
+    padding: 20px;
+  }
+  .desginer .from .cardfrom {
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+  .desginer .from span {
+    font-size: 13px;
+  }
+  .desginer .from .cardfrom h5 {
+    font-size: 40px;
+  }
+  .desginer .from .cardfrom p {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .desginer .from .cardfrom .viewLink {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  .story .cards .cardsText {
+    margin-bottom: 30px;
+  }
+  .shop .shopText h6 {
+    font-size: 25px;
+  }
+  .shop .shopText {
+    margin-top: 20px !important;
+    margin-bottom: 25px;
+  }
+  .story .cards .cardsText h5 {
+    font-size: 20px;
+  }
+  .story .cards .cardsText p {
+    font-size: 13px;
+  }
+  .add2 {
+    padding: 10px 70px;
+    margin: 10px 0;
+  }
+  .modal-body .card2 .cardtextInfo p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .landing .carousel-item img {
+    height: 600px;
+  }
+  .carousel-text h1 {
+    font-size: 65px;
+  }
+  .brand .brandText h2 {
+    font-size: 30px;
+  }
+  .collectText h3 {
+    font-size: 32px;
+  }
+  .collection .collectImages .card1 .cardtext span {
+    font-size: 20px;
+  }
+  .desginer .from {
+    padding: 20px;
+  }
+  .desginer .from .cardfrom {
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+  .desginer .from span {
+    font-size: 13px;
+  }
+  .desginer .from .cardfrom h5 {
+    font-size: 40px;
+  }
+  .desginer .from .cardfrom p {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .desginer .from .cardfrom .viewLink {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  .story .cards .cardsText {
+    margin-bottom: 30px;
+  }
+  .shop .shopText h6 {
+    font-size: 25px;
+  }
+  .shop .shopText {
+    margin-top: 20px !important;
+    margin-bottom: 25px;
+  }
+  .story .cards .cardsText h5 {
+    font-size: 20px;
+  }
+  .story .cards .cardsText p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .landing .carousel-item img {
+    height: 500px;
+  }
+  .carousel-text h1 {
+    font-size: 50px;
+  }
+  .brand .brandText h2 {
+    font-size: 30px;
+  }
+  .collectText h3 {
+    font-size: 32px;
+  }
+  .collection .collectImages .card1 .cardtext span {
+    font-size: 20px;
+  }
+  .desginer .from {
+    padding: 20px;
+  }
+  .desginer .from .cardfrom {
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+  .desginer .from span {
+    font-size: 13px;
+  }
+  .desginer .from .cardfrom h5 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  .desginer .from .cardfrom p {
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  .desginer .from .cardfrom .viewLink {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  .story .cards .cardsText {
+    margin-bottom: 30px;
+  }
+  .shop .shopText h6 {
+    font-size: 25px;
+  }
+  .shop .shopText {
+    margin-top: 20px !important;
+    margin-bottom: 25px;
+  }
+  .add2 {
+    padding: 7px 50px;
+    margin: 10px 0;
+  }
+  .modal-body .card2 .cardtextInfo p {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .modal-body .card2 .cardtextInfo h2 {
+    font-size: 20px;
+  }
+  .modal-body .card2 .cardtextInfo {
+    margin-top: 5px;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .landing .carousel-item img {
+    height: 400px;
+  }
+  .landing .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    font-size: 10px;
+    width: 2rem;
+    height: 2.4rem;
+  }
+  .carousel-text .parag1 {
+    font-size: 12px;
+  }
+  .carousel-text h1 {
+    font-size: 39px;
+  }
+  .carousel-text .parag2 {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .carousel-text .shopNow {
+    font-size: 12px;
+    padding: 14px 25px;
+  }
+  .carousel-text2 {
+    top: 8%;
+    left: 50%;
+    text-align: center;
+  }
+  .carousel-text3 {
+    top: 8%;
+  }
+  .landing .carousel-control-next,
+  .carousel-control-prev {
+    width: 14% !important;
+  }
+  .brand .brandText h2 {
+    font-size: 25px;
+  }
+  .collectText h3 {
+    font-size: 28px;
+  }
+  .desginer .from .cardfrom h5 {
+    font-size: 30px;
+    padding: 30px 0;
+  }
+  .desginer .from .cardfrom p {
+    margin-bottom: 30px;
+    font-size: 13px;
+  }
+  .desginer .from .cardfrom .viewLink {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  .desginer .from .cardimg {
+    margin-top: 30px;
+  }
+  .story .cards .cardsText h5 {
+    font-size: 20px;
+  }
+  .story .cards .cardsText p {
+    font-size: 13px;
+  }
+  .story .cards .cardsText {
+    margin-bottom: 30px;
+  }
+  .sign .signText .email {
+    width: 240px;
+  }
+  .shop .shopText {
+    margin-top: 20px !important;
+    margin-bottom: 25px;
+  }
+  .shop .shopText h6 {
+    font-size: 25px;
+  }
+  .shop .shopText .explore {
+    font-size: 13px;
+  }
+}

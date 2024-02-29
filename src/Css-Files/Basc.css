@@ -1,0 +1,53 @@
+img {
+  width: 100%;
+  display: block;
+}
+body {
+  overflow-x: hidden;
+  font-family: futura_medium;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Futura_Heavy;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  color: var(--secand-color);
+  margin-bottom: 0;
+}
+.m-80 {
+  margin-top: 80px;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: rgba(0, 0, 0, 0.604);
+}
+li {
+  padding: 0;
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
+.active{
+  color: var(--scroll-color);
+}

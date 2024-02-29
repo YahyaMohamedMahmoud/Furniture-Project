@@ -1,0 +1,14 @@
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 600px) {
+  .blog .blogText {
+    width: 90%;
+  }
+  .shop2 {
+    height: 350px;
+  }
+}

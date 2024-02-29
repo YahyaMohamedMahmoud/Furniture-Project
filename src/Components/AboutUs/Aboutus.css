@@ -1,0 +1,49 @@
+.aboutus {
+  background-image: url(../../img/about.jpg);
+}
+.aboutus h1 {
+  font-size: 60px;
+}
+.aboutus .dialog {
+  font-size: 14px;
+}
+.brandabout {
+  padding: 30px;
+}
+.brand .brandText .hay {
+  font-family: Futura_Book;
+  font-size: 14px;
+  line-height: 2;
+  text-transform: none;
+  color: var(--secand-color);
+}
+.inspration .we .the {
+  font-family: Futura_Book;
+  color: var(--secand-color);
+  text-transform: none;
+  line-height: 1.5;
+}
+.serviesUS {
+  background-color: #f5f5f5;
+}
+.serviesUs2 {
+  border: none;
+}
+.ourbrand {
+  background-color: transparent;
+}
+.team .teamText h5 {
+  font-size: 40px;
+}
+.team .personText h6 {
+  font-size: 25px;
+}
+.team .personText p {
+  color: #868686;
+  font-size: 14px;
+  font-family: Futura_Book;
+}
+.card img {
+  max-width: 300px;
+  display: inline-block;
+}

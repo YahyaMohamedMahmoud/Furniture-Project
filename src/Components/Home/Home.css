@@ -1,0 +1,293 @@
+.landing .carousel-item img {
+  height: 651px;
+  object-fit: cover;
+  object-position: center;
+}
+.landing .carousel-item {
+  position: relative;
+}
+.landing .carousel-item::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.145);
+  position: absolute;
+  inset: 0;
+}
+.landing {
+  position: relative;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 99;
+}
+.landing .carousel-control-next,
+.carousel-control-prev {
+  width: 8% !important;
+}
+.landing .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  font-size: 10px;
+  background-color: rgba(255, 255, 255, 0.467);
+  padding: 20px;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-position: 60%;
+  background-size: 72% 100%;
+}
+.carousel-text {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  z-index: 1;
+}
+.carousel-text .parag1 {
+  font-family: Futura_Heavy;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+.carousel-text h1 {
+  font-size: 80px;
+  color: var(--primary-color);
+  font-family: Futura_Heavy;
+  letter-spacing: -2px;
+}
+.carousel-text .parag2 {
+  font-size: 16px;
+  font-family: Futura_Book;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+}
+.carousel-text .shopNow {
+  text-transform: capitalize;
+  font-size: 15px;
+  padding: 18px 35px;
+  background-color: var(--primary-color);
+  font-family: Futura_Extra_Black;
+  color: var(--secand-color);
+}
+.carousel-text2 {
+  left: 60%;
+  text-align: left;
+}
+.carousel-text3 {
+  top: 23%;
+}
+.carousel-text3 h1 {
+  font-size: 70px;
+}
+/* landing sec style end */
+
+/* scroll sec style start */
+.scrollsec .scroll {
+  background-color: var(--scroll-color);
+  padding: 20px 0;
+}
+.scrollsec .scroll span {
+  font-size: 16px;
+  margin: 0 30px;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  font-family: Futura_Heavy;
+}
+/* scroll sec style end */
+
+/* brand sec style start */
+.brand {
+  background-color: #f5f5f5;
+  padding: 80px 0;
+}
+.brand .brandText h2 {
+  font-size: 40px;
+  font-family: Futura_Heavy;
+}
+.brand .brandText p {
+  color: var(--parag-color);
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: Futura_Heavy;
+}
+.brand .brandText .shopLink {
+  border-bottom: 1px solid var(--secand-color);
+  padding-bottom: 5px;
+  text-transform: capitalize;
+  font-family: Futura_Heavy;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+.brand .brandText .shopLink:hover {
+  color: var(--scroll-color);
+  border-color: var(--scroll-color);
+}
+/* brand sec style end */
+
+/* collection sec style start */
+.collection .collectImages .card1 {
+  position: relative;
+  overflow: hidden;
+}
+.collection .collectImages .card1 img {
+  transition: all 0.8s;
+}
+.collection .collectImages .card1:hover img {
+  transform: scale(1.1);
+}
+.collection .collectImages .card1::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.195);
+  inset: 0;
+  opacity: 1;
+}
+.collection .collectImages .card1 .cardtext {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.collection .collectImages .card1 .cardtext span {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  font-family: Futura_Heavy;
+}
+/* collection sec style end */
+
+/* desginer sec style start */
+.desginer {
+  background: linear-gradient(to right, #5575af 34%, #e0dbce 10%);
+  padding: 70px 0;
+}
+.desginer .from {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+}
+.desginer .from .cardfrom {
+  margin-top: 80px;
+}
+.desginer .from .cardfrom span {
+  color: var(--parag-color);
+  font-family: Futura_Heavy;
+}
+.desginer .from .cardfrom h5 {
+  font-size: 40px;
+  padding: 30px 0;
+}
+.desginer .from .cardfrom p {
+  font-family: Futura_Book;
+  margin-bottom: 60px;
+  color: var(--secand-color);
+}
+.desginer .from .cardfrom .viewLink {
+  padding: 17px 40px;
+  background-color: var(--secand-color);
+  color: var(--primary-color);
+  font-family: Futura_Heavy;
+  text-transform: capitalize;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+.desginer .from .cardfrom .viewLink:hover {
+  background-color: var(--scroll-color);
+}
+.desginer .from .cardimg img {
+  border-radius: 20px;
+}
+/* desginer sec style end */
+
+/* story sec style start */
+.story .cards .cardsText {
+  margin-top: 30px;
+  font-family: Futura_Book;
+}
+.story .cards .cardsText span {
+  color: var(--parag-color);
+  text-transform: capitalize;
+  font-size: 13px;
+  margin-inline-end: 10px;
+}
+.story .cards .cardsText h5 {
+  font-size: 25px;
+}
+.story .cards .cardsText p {
+  font-size: 15px;
+  color: var(--secand-color);
+}
+.story .cards .cardsText .more {
+  padding: 12px 18px;
+  background-color: var(--secand-color);
+  text-transform: capitalize;
+  color: var(--primary-color);
+  transition: all 0.5s;
+}
+.story .cards .cardsText .more:hover {
+  background-color: var(--scroll-color);
+}
+/* story sec style end */
+
+/* sign sec style start */
+.sign .signText {
+  width: 100%;
+}
+.sign .brandText .new {
+  color: var(--secand-color);
+}
+.sign .brandText .sub {
+  font-family: Futura_Book;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.sign .signText .email {
+  padding: 11px 25px;
+  border: 1px solid var(--secand-color);
+  border-right: none;
+  background-color: transparent;
+  width: 400px;
+  position: relative;
+  z-index: 1;
+}
+.sign .signText .email:focus {
+  outline: none;
+}
+.sign .signText .signUp {
+  background-color: transparent;
+  z-index: 20;
+  border: 1px solid var(--secand-color);
+  border-left: none;
+  padding: 11px 17px;
+}
+/* sign sec style end */
+
+/* shop sec style start */
+.shop .shopText h6 {
+  font-size: 30px;
+}
+.shop .shopText .explore {
+  font-family: Futura_Book;
+  font-size: 15px;
+  color: var(--secand-color);
+}
+.shop .shopText .shopLink {
+  text-transform: capitalize;
+  border-bottom: 2px solid var(--secand-color);
+  font-family: Futura_Heavy;
+  transition: all 0.5s;
+}
+.shop .shopText .shopLink:hover {
+  color: var(--scroll-color);
+  border-color: var(--scroll-color);
+}

@@ -1,0 +1,262 @@
+/*details sec style start*/
+.details {
+  background-image: url(../../img/bg.jpg);
+  background-position: 100% 35%;
+  position: relative;
+}
+.details .detailsText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*details sec style end*/
+
+/*product sec style start*/
+.product .icon2,
+.icon3 {
+  background-color: rgba(0, 0, 0, 0.445);
+  color: black;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-position: 64%;
+  background-size: 68% 71%;
+}
+.product .prev2,
+.next2 {
+  color: var(--secand-color);
+  width: 9%;
+}
+.product .productText span {
+  font-family: futura_medium;
+  margin-inline-end: 10px;
+  color: #868686;
+}
+.product .productText p {
+  color: var(--secand-color);
+  font-family: Futura_Book;
+}
+.product .productText .price1 {
+  font-family: Futura_Book;
+  color: var(--secand-color);
+  font-size: 30px;
+}
+.product .productText .all {
+  color: #868686;
+}
+.product .productText p span {
+  color: #868686;
+  font-family: Futura_Book;
+}
+.product .productText .size {
+  padding: 10px 14px;
+  border: 1px solid #8686866f;
+  background-color: transparent;
+}
+.product .productText .color {
+  padding: 6px 11px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #868686;
+  border: 1px solid #868686;
+}
+.product .productText .color2 {
+  color: red;
+}
+.product .productText .input {
+  margin: 20px 0;
+  width: 9%;
+  padding: 9px 5px;
+}
+.product .productText .add2 {
+  margin: 0 10px;
+  width: 70%;
+}
+.product .productText .true {
+  color: green;
+}
+.product .productText .ready {
+  color: #868686;
+  font-size: 12px;
+}
+.product .productText .reward {
+  padding: 20px 50px;
+  background: linear-gradient(
+    180deg,
+    rgba(238, 247, 241, 1),
+    rgba(238, 247, 241, 1) 100%
+  );
+  border-radius: 20px;
+  margin: 20px 0;
+}
+.product .productText .reward span {
+  color: var(--secand-color);
+  border: 1px solid var(--secand-color);
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.product .productText .free {
+  border-top: 1px solid #86868646;
+  border-bottom: 1px solid #86868647;
+}
+.product .productText .free span {
+  color: var(--secand-color);
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.product .productText .order {
+  font-family: Futura_Book;
+}
+.product .productText .order span {
+  color: var(--secand-color);
+}
+/*product sec style end*/
+
+/*tabs sec style start*/
+.tabs p,
+li {
+  color: var(--secand-color);
+  font-family: Futura_Book;
+  font-size: 15px;
+}
+.tabs .nav-link {
+  color: var(--secand-color);
+  margin-inline-end: 30px;
+  padding: 5px 0;
+}
+.tabs .nav-item .active {
+  border-bottom: 2px solid var(--secand-color);
+}
+.tabs .tab-pane {
+  width: 70%;
+}
+/*tabs sec style end*/
+
+/*servies sec style start*/
+.servies2 {
+  border-top: 1px solid #86868647;
+  padding: 60px 0;
+}
+.servies .freeGet .icon {
+  font-size: 40px;
+  font-family: Futura_Light;
+}
+.servies .freeGet h3 {
+  font-family: Futura_Book;
+  font-size: 20px;
+}
+.servies .freeGet p {
+  color: #868686;
+  font-size: 13px;
+}
+.catalog .designerText {
+  background-color: rgba(245, 245, 245);
+  padding: 90px 40px;
+}
+.catalog .designerText .designerText2 .direct h4 {
+  font-size: 18px;
+}
+.catalog .designerText .designerText2 .direct p {
+  color: #868686;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: futura_medium;
+}
+.catalog .designerText .designerText2 {
+  border-right: 1px solid #86868647;
+  border-top: 1px solid #86868647;
+}
+/*servies sec style end*/
+
+/* video sec style start */
+.hero-video {
+  position: relative;
+  overflow: hidden;
+}
+.hero-video .video {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.hero-video::after {
+  content: "";
+  width: 100%;
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.277);
+  position: absolute;
+  inset: 0;
+}
+.hero-video .videoText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.hero-video .videoText h4 {
+  color: var(--primary-color);
+  font-size: 50px;
+}
+.hero-video .videoText p {
+  font-size: 14px;
+}
+/* video sec style end */
+
+/* inspration sec style start */
+.inspration .descImg {
+  z-index: -1;
+  margin-left: -30px;
+}
+.inspration .descImg1 {
+  margin-right: -30px;
+  position: relative;
+  z-index: 1;
+}
+.inspration .we p {
+  color: #868686;
+  text-transform: uppercase;
+  font-family: Futura_Heavy;
+  font-size: 14px;
+}
+.inspration .we h5 {
+  font-size: 40px;
+}
+.inspration .we .shop {
+  text-transform: capitalize;
+  font-family: Futura_Heavy;
+  padding: 12px 30px;
+  border: 2px solid var(--secand-color);
+  transition: all 0.5s;
+}
+.inspration .we .shop:hover {
+  background-color: var(--scroll-color);
+  border-color: transparent;
+  color: var(--primary-color);
+}
+/* inspration sec style end */
+
+/* awesome sec style start */
+.awesome {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+}
+.awesome .awesomeImg img {
+  height: 550px;
+  object-fit: cover;
+}
+.awesome .awesomeText .awe {
+  font-family: Futura_Heavy;
+  color: #868686;
+  text-transform: uppercase;
+}
+.awesome .awesomeText h5 {
+  font-size: 35px;
+}
+.awesome .awesomeText .name {
+  color: var(--secand-color);
+  font-family: Futura_Book;
+}
+/* awesome sec style end */

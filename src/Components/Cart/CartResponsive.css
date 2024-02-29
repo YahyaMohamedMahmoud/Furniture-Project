@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+  .call .callOne {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .call .callOne {
+    margin-bottom: 20px;
+  }
+  .got .gotText h3 {
+    font-size: 25px;
+  }
+  .got .gotText p {
+    font-size: 13px;
+  }
+  .got .gotFrom .name {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-inline-end: 0px;
+  }
+  .pay .getShip select {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .pay .table {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  .pay .table .also {
+    text-align: left;
+  }
+  .pay .table td {
+    border: 1px solid black;
+  }
+  .pay .table td .tableImg img {
+    max-width: 50px;
+  }
+  .pay .table td .tableImg h2 {
+    font-size: 13px;
+  }
+  .pay .table td .tableImg p {
+    font-size: 10px;
+  }
+  .pay .table td .tableImg .delete {
+    font-size: 13px;
+  }
+}

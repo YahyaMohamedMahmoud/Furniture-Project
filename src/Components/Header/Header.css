@@ -1,0 +1,76 @@
+.header {
+  position: relative;
+}
+.logo {
+  max-width: 170px;
+  margin-top: 5px;
+  position: absolute;
+  top: 28%;
+  left: 45%;
+}
+.links {
+  font-size: 20px;
+  margin-inline-end: 20px;
+  margin-top: 5px;
+  color: var(--primary-color);
+  transition: all 0.5s;
+}
+.div {
+  position: absolute;
+  right: 7%;
+  top: 35%;
+}
+.linksFixed {
+  color: var(--secand-color);
+}
+.nav-link {
+  font-size: 18px;
+  font-family: Futura_Bold;
+  text-transform: uppercase;
+  margin-inline-end: 5px;
+  margin-top: 5px;
+  color: var(--primary-color);
+  transition: all 0.5s;
+}
+.nav-link:active {
+  color: var(--scroll-color);
+}
+.nav-link:hover,
+.links:hover,
+.linkFixed:hover {
+  color: var(--scroll-color);
+}
+.linkFixed {
+  color: var(--secand-color);
+  transition: all 0.5s;
+}
+
+.headerFixed {
+  position: fixed;
+  background-color: var(--primary-color);
+  top: 0px;
+  left: 0;
+  right: 0;
+  transform: translateY(-10px);
+  transition: all 0.5s;
+  z-index: 5;
+  box-shadow: 0 0px 0px 1px rgb(0 0 0 / 05%);
+}
+.top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 99;
+  border-radius: 50%;
+  border: 1px solid #868686;
+  padding: 11px 17px;
+  overflow: hidden;
+  background-color: var(--primary-color);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.showBtn {
+  opacity: 1;
+  visibility: visible;
+}
