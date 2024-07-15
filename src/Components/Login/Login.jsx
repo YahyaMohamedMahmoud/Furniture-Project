@@ -4,38 +4,29 @@ import "./LogResponsive.css";
 import { Link } from "react-router-dom";
 
 export default function Login() {
-  let [getUser, setgetUser] = useState({
-    email: "",
-    password: "",
+  const [getUser, setGetUser] = useState({
+    userEmail: "",
+    userPassword: "",
   });
-  let useremail = JSON.parse(localStorage.getItem("user"));
-  let userPassword = JSON.parse(localStorage.getItem("user"));
-  let mail = useremail.email;
-  let pass = userPassword.password;
-  console.log(mail);
+
+  const userData = JSON.parse(localStorage.getItem('user'));
+
+const mail = userData ? userData.email : '';
+const pass = userData ? userData.password : '';
 
   function getuserData(event) {
-    let getdata = { ...getUser };
-    getdata[event.target.name] = event.target.value;
-    setgetUser(getdata);
+    const { name, value } = event.target;
+    setGetUser((prevState) => ({ ...prevState, [name]: value }));
   }
   function submit(event) {
     event.preventDefault();
     if (
-      mail === getUser.email &&
-      pass === getUser.password   
-    ) {
-      window.location.href = "/shop";
-    } else if(getUser.password === "" ||
-    getUser.email === "") {
-     alert("Please Enter Your Email And Password Correct")
-    } else if(mail != getUser.email){
-      alert("Your Email is Not Correct,Please Check Your Email")
-         
-    } else if(pass != getUser.password){
-      alert("Your Password is Not Correct , Please Check Your Password")
-    }
-  }
+        mail === getUser.userEmail &&
+        pass === getUser.userPassword   
+      ) {
+        window.location.href = "/shop";
+      }
+}
 
   return (
     <>
@@ -60,22 +51,22 @@ export default function Login() {
                 onChange={getuserData}
                 type="email"
                 className="form-control"
-                id="email"
-                name="email"
+                id="userEmail"
+                name="userEmail"
                 placeholder="Email"
               />
-              <label htmlFor="email">Email</label>
+              <label htmlFor="userEmail">Email</label>
             </div>
             <div className="form-floating">
               <input
                 onChange={getuserData}
                 type="password"
                 className="form-control"
-                id="password"
-                name="password"
+                id="userPassword"
+                name="userPassword"
                 placeholder="Password"
               />
-              <label htmlFor="password">Password</label>
+              <label htmlFor="userPassword">Password</label>
             </div>
             <Link to="/shop" className="logbtn" onClick={submit}>
               log in
