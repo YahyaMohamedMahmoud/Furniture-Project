@@ -302,7 +302,7 @@ export default function Home() {
                 <div
                   key={index}
                   index={index}
-                  className={`col-xl-3 col-lg-3 col-md-4 col-sm-6`}
+                  className={`col-xl-3 col-lg-3 col-md-4 col-xs-6`}
                 >
                   <div className="cardApi">
                     <div className="apiHover">

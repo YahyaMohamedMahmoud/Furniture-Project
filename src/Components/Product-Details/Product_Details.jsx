@@ -34,7 +34,7 @@ export default function Product_Details() {
       {/*product details sec start */}
       <section className="product m-80">
         <div className="container">
-          <div className="row justify-content-center g-5">
+          <div className="row justify-content-center g-xl-5">
             <div className="col-xl-5">
               <div
                 id="carouselExample"
