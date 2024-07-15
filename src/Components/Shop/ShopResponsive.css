@@ -89,4 +89,24 @@
   .pagination {
     margin: 18px !important;
   }
+  .row .col-xs-6{
+    width: 50%;
+  }
+  .api .cardApi .apiHover .apiIcon .add {
+    font-size: 12px;
+    width: 84%;
+}
+.api .cardApi .apiHover .apiIcon .wish {
+    right: 0;
+    top: 10px;
+}
+.api .cardApi .apiHover .apiIcon .view {
+    position: absolute;
+    right: 17px;
+    top: 59px;
+}
+.api .cardApi .apiHover .apiIcon:hover .wish {
+  right: 13px;
+  opacity: 1;
+}
 }

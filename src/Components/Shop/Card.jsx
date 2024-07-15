@@ -85,7 +85,7 @@ export default function Card() {
             <div
               key={index}
               index={index}
-              className={`col-xl-${col} col-lg-${col} col-md-6`}
+              className={`col-xl-${col} col-lg-${col} col-md-6 col-xs-6`}
             >
               <div className="cardApi">
                 <div className="apiHover">
